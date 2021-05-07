@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, render_template, request
-from api.data import quotes
+from data import quotes
 
 app = Flask(__name__)
 
